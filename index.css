@@ -1,0 +1,32 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  /* font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal; */
+}
+.slide {
+  display: none;
+}
+.slide.active {
+  display: block;
+}
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(10px);
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  display: none;
+}
+.fullscreen-overlay img {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 1rem;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
+}
