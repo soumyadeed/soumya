@@ -29,19 +29,19 @@
                   <a href="#portfolio" class="text-gray-50  hover:font-bold duration-200 transition">Portfolio</a>
                   <a href="#contact" class="text-gray-50  hover:font-bold duration-200 transition">Contact</a>
               </div>
-<!--             </div> -->
+            </div>
             <!-- social media links -->
             
-<!--             <div class="hidden md:flex flex-row "> -->
+            <!-- <div class="hidden md:flex flex-row "> -->
                 <!-- fecebook link -->
-<!--                 <a href="https://www.facebook.com/jakson.roy.165"  target="_blank"><img src="./image/media/icons8-facebook-500.png" alt="" class="h-10 w-10 rounded-full hover:-translate-y-2 duration-200"></a> -->
+                <!-- <a href="https://www.facebook.com/jakson.roy.165"  target="_blank"><img src="./image/media/icons8-facebook-500.png" alt="" class="h-10 w-10 rounded-full hover:-translate-y-2 duration-200"></a> -->
                 <!-- insta link  -->
-<!--                <a href=""  target="_blank"><img src="./image/media/icons8-insta-240.png" alt="" class="h-10 w-10 rounded-full hover:-translate-y-2 duration-200"> </a> -->
+               <!-- <a href=""  target="_blank"><img src="./image/media/icons8-insta-240.png" alt="" class="h-10 w-10 rounded-full hover:-translate-y-2 duration-200"> </a> -->
                 <!-- x.com link -->
-<!--                 <a href="https://x.com/sarkar6664" target="_blank"><img src="./image/media/icons8-x-500.png" alt="" class="h-10 w-10 rounded-full hover:-translate-y-2 duration-200"> </a> -->
+                <!-- <a href="https://x.com/sarkar6664" target="_blank"><img src="./image/media/icons8-x-500.png" alt="" class="h-10 w-10 rounded-full hover:-translate-y-2 duration-200"> </a> -->
                 <!-- github link  -->
-<!--                <a href="https://github.com/soumyadeed" target="_blank"><img src="./image/media/icons8-github-logo-512.png" alt="" class="h-10 w-10 rounded-full hover:-translate-y-2 duration-200"></a>  -->
-<!--             </div> -->
+               <!-- <a href="https://github.com/soumyadeed" target="_blank"><img src="./image/media/icons8-github-logo-512.png" alt="" class="h-10 w-10 rounded-full hover:-translate-y-2 duration-200"></a>  -->
+            <!-- </div> -->
            
      
            <!-- Mobile Menu Button -->
@@ -1831,7 +1831,7 @@
             </div>
         </section>
         <!-- ui/ux galary -->
-         <section class="max-w-7xl py-10 mx-auto"> 
+         <section id="gallery-section"  class="g max-w-7xl py-10 mx-auto"> 
             <h1 class="text-3xl font-semibold">UI/UX Design</h1>
             <div class="grid md:grid-cols-4 grid-cols-1 md:my-4 gap-4">
                 <div class="col-span-2 row-span-2 h-110 bg-teal-100 rounded-md overflow-hidden"> <img src="https://i.pinimg.com/736x/9e/f7/f9/9ef7f91094c77e9b1edae2d356dd094d.jpg" alt="UI/UX" class="w-full hover:scale-110 duration-300" loading="lazy"></div>
@@ -1856,11 +1856,12 @@
   </div>
 
   <script>
-    const images = document.querySelectorAll("img");
+    // Select only images inside the section with ID 'gallery-section'
+    const galleryImages = document.querySelectorAll("#gallery-section img");
     const overlay = document.getElementById("fullscreenOverlay");
     const fullscreenImg = document.getElementById("fullscreenImage");
-
-    images.forEach((img) => {
+  
+    galleryImages.forEach((img) => {
       img.addEventListener("click", () => {
         fullscreenImg.src = img.src;
         overlay.style.display = "flex";
@@ -2361,7 +2362,7 @@
             <!-- Slide 6 - A -->
             <h1 class="text-2xl font-medium my-4 text-center">Basic</h1>
             <h2 class="text-4xl font-extrabold text-center mb-10">
-              $499 – $999+
+              $500 – $1,000
             </h2>
             <p>- 3-section site</p>
             <p>- Custom HTML/CSS or WordPress</p>
@@ -2385,7 +2386,7 @@
               Standard
             </h1>
             <h2 class="text-4xl font-extrabold text-center mb-10">
-              $1,199 – $2399+
+              $1,000 – $2,500
             </h2>
             <p>Every thing in Basic</p>
             <p>- 5–10 sections</p>
@@ -2408,7 +2409,7 @@
             <!-- Slide 6 - C -->
             <h1 class="text-2xl font-medium my-4 text-center">Premium</h1>
             <h2 class="text-4xl font-extrabold text-center mb-10">
-              $2,599 – $3399+
+              $2,500 – $5,000+
             </h2>
             <p>Every thing in Standard</p>
             <p>- 10+ sections</p>
