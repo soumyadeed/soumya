@@ -175,11 +175,11 @@
    
      <!-- Mobile Menu (hidden by default) -->
      <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
-       <a href="#" class="block py-2 text-gray-700 hover:text-blue-600">Home</a>
-       <a href="#" class="block py-2 text-gray-700 hover:text-blue-600">About</a>
-       <a href="#" class="block py-2 text-gray-700 hover:text-blue-600">Services</a>
-       <a href="#" class="block py-2 text-gray-700 hover:text-blue-600">Portfolio</a>
-       <a href="#" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
+       <a href="#home" class="block py-2 text-gray-700 hover:text-blue-600">Home</a>
+       <a href="#about" class="block py-2 text-gray-700 hover:text-blue-600">About</a>
+       <a href="#services" class="block py-2 text-gray-700 hover:text-blue-600">Services</a>
+       <a href="#Portfolio" class="block py-2 text-gray-700 hover:text-blue-600">Portfolio</a>
+       <a href="#contact" class="block py-2 text-gray-700 hover:text-blue-600">Contact</a>
      </div>
    
      <script>
@@ -191,7 +191,7 @@
        });
      </script>
      <section id="home" class="flex flex-col items-center justify-center py-20 pb-40 border-b-4 border-zinc-600 ">
-        <h1 class="md:text-5xl text-4xl font-medium ">I'M SOUMYADEEP</h1>
+        <h1 class="md:text-5xl text-4xl font-semibold text-black/60 ">I'M SOUMYADEEP</h1>
         <h2 class="md:text-8xl text-6xl font-semibold text-teal-600 text-wrap text-center animated-text"> Web Developer & Designer</h2>
         <div class="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-28 max-w-7xl md:overflow-y-hidden mt-8 ">
             <div class="w-80 flex flex-col right-to-left">
@@ -200,7 +200,7 @@
                 I am a web developer and designer with a passion for creating user-friendly and visually appealing websites.
                 I have experience in HTML, CSS, JavaScript, and various web development frameworks. I am also skilled inresponsivedesign,ensuring that websites look great on all devices.
               </p> 
-              <div class="text-center my-10 flex flex-col self-start">
+              <div class="text-center my-10 flex flex-col self-start md:-mb-0 -mb-16">
                 <h1 class="text-8xl text-teal-600  font-bold ">54+</h1>
                 <p class="font-bold">Numder of Personal Site</p>
               </div>
@@ -208,7 +208,7 @@
                 
             <div class="w-100  relative  flex items-center justify-center bottom-0 ">
                 <!-- <img src="./image/me/ed97179b1a21251a1b4f3c2f03cd9273.jpg" alt=""class="w-full "> -->
-                <img src="./image/me/bw-me2.png" alt=""class="w-full  z-20 rounded-3xl md:rounded-xs from-left mask-r-from-60% mask-l-from-60% ">
+                <img src="./image/me/bw-me2.png" alt=""class="w-full  z-20 rounded-3xl md:rounded-xs mask-r-from-60% mask-l-from-60% ">
                  <div class="absolute hidden md:flex bg-teal-400  w-175 h-170 rounded-full -bottom-70 z-10 down"></div>
                  <div class="absolute flex justify-center items-center gap-4 bg-zinc-400 md:w-110 w-full h-14 rounded-full border-2 border-white bottom-10 z-30 p-4 zoom-in">
                     <button class="text-xl bg-amber-50 w-full rounded-full hover:font-bold hover:scale-107 hover:shadow-[_0_10px_20px_rgba(0,0,0,0.5)] duration-200 border-2 border-black ease-in"><a href="#Portfolio">Portfolio</a></button>
@@ -236,7 +236,7 @@
         <div class=" p-10 bg-zinc-600 -mt-41 rounded-2xl ">
             <!-- header section  -->
             <div class="border-0 border-b-2 border-black  text-teal-600 pb-4">
-                <h2 class="text-5xl font-bold underline text-center md:text-left">MY SERVICES</h2>
+                <h2 class="md:text-5xl text-4xl font-bold underline text-center md:text-left">MY SERVICES</h2>
                 <div class="md:px-8 text-teal-50">
                     <p class="">Web Solutions That Look Great, Load Fast & Convert Better</p>
 
@@ -246,7 +246,7 @@
               
             </div>
              <!-- services -->
-             <div class="grid grid-cols-1 md:grid-cols-3  gap-6 pt-4 ">
+             <div class="grid grid-cols-1 md:grid-cols-3  gap-6 pt-4 -mx-6 md:-mx-0">
                 <!-- Custom Website Development -->
                 <div
                   class="flex flex-col justify-center items-center p-4 rounded-2xl bg-white/35 hover:bg-teal-100 border-white border-0 hover:-translate-y-2 hover:shadow-[_0px_50px_50px_rgba(0,0,0,0.4)] duration-300 ease-in-out"
@@ -255,6 +255,7 @@
                     src="./image/services/custom.png"
                     alt=""
                     class="w-28 mx-6 my-3 rounded-full"
+                    loading="lazy"
                   />
                   <h1 class="text-xl font-bold my-2">🛠️ Custom Website Development</h1>
                   <p>Built from scratch. Designed to perform.</p>
@@ -275,6 +276,7 @@
                     src="./image/services/redesign.png"
                     alt=""
                     class="w-28 mx-6 my-3 rounded-full"
+                    loading="lazy"
                   />
                   <h1 class="text-xl font-bold my-2">♻️Redesign and development</h1>
                   <p>Powerful websites made simple.</p>
@@ -295,6 +297,7 @@
                     src="./image/services/e-com.png"
                     alt=""
                     class="w-28 mx-6 my-3 rounded-full"
+                    loading="lazy"
                   />
                   <h1 class="text-xl font-bold my-2">🛒 WooCommerce Development</h1>
                   <p>Launch your online store with confidence.</p>
@@ -315,6 +318,7 @@
                     src="./image/services/personal.png"
                     alt=""
                     class="w-28 mx-6 my-3 rounded-full"
+                    loading="lazy"
                   />
                   <h1 class="text-xl font-bold my-2">
                     👤 Personal site Development
@@ -337,6 +341,7 @@
                     src="./image/services/blogging.png"
                     alt=""
                     class="w-28 mx-6 my-3 rounded-full"
+                    loading="lazy"
                   />
                   <h1 class="text-xl font-bold my-2">✍️ Blogging Site Development</h1>
                   <p>Designed for writers, optimized for growth.</p>
@@ -357,6 +362,7 @@
                     src="./image/services/uiux.png"
                     alt=""
                     class="w-28 mx-6 my-3 rounded-full"
+                    loading="lazy"
                   />
                   <h1 class="text-xl font-bold my-2">🎨 UI/UX Design</h1>
                   <p>Designs that connect, experiences that convert.</p>
@@ -377,11 +383,11 @@
       </section>
       <!-- about section -->
        <section id="about" class="max-w-7xl mx-auto py-10 my-16">
-        <h1 class=" text-6xl mb-16 font-semibold ml-4 text-teal-500 underline">About Me</h1>
+        <h1 class=" text-6xl mb-16 font-semibold ml-4 text-teal-500 underline text-center md:text-left">About Me</h1>
         <div class="flex flex-col md:flex-row items-center justify-between gap-10 px-10">
           <!-- image of soumyadeep section  -->
           <div class="md:w-96 relative flex items-center justify-center ">
-             <img src="./image/me/bw-me3.jpg" alt="image of soumyadeep" class="w-full  shadow-[_0px_5px_30px] mask-radial-at-center mask-radial-from-55%  rounded-3xl z-20 ">
+             <img loading="lazy" src="./image/me/bw-me3.jpg" alt="image of soumyadeep" class="w-full  shadow-[_0px_5px_30px] mask-radial-at-center mask-radial-from-55%  rounded-3xl z-20 ">
              <div class="absolute md:flex hidden bg-teal-600 size-90 rounded-full -top-10 -left-28 z-10 right-to-left"></div>
              <div class="absolute md:flex hidden bg-teal-600 size-70 rounded-full -bottom-10 -right-28 z-10 left-to-right "></div>
           </div>
@@ -531,7 +537,7 @@
         </section>
         <!-- this work process section only for mobile version down there -->
          <section class="md:hidden flex flex-col justify-center items-center p-2 mb-16">
-          <h1 class="text-4xl underline font-bold -mb-1">How I Build Imagination</h1>
+          <h1 class="md:text-5xl text-3xl underline font-bold -mb-1 text-center">How I Build Imagination</h1>
           <!-- arm  -->
           <span class="flex flex-col justify-center items-center">
             <span class="h-16 w-0.5 bg-black"></span>
@@ -610,7 +616,7 @@
 
          </section>
         <div class="max-w-3xl mx-auto text-center mb-16 -mt-4 flex flex-col items-center justify-center ">
-          <p class="text-2xl mb-4">My work is guided by precision and strategic thinking, transforming ideas into effective digital solutions. Each project integrates thoughtful design, advanced technology, and clear objectives to address complex challenges and deliver measurable outcomes. The case studies below exemplify this approach. <span class="text-2xl font-bold"> “Design is intelligence made visible.”</span></p>
+          <p class="text-2xl mb-4 px-4">My work is guided by precision and strategic thinking, transforming ideas into effective digital solutions. Each project integrates thoughtful design, advanced technology, and clear objectives to address complex challenges and deliver measurable outcomes. The case studies below exemplify this approach. <span class="text-2xl font-bold"> “Design is intelligence made visible.”</span></p>
           <button class="hover:shadow-[_0_10px_25px] rounded-xl hover:-translate-y-1 duration-200 "><a href="#contact" class="text-xl font-bold px-8 py-1  bg-teal-500 rounded-xl hover:text-white duration-200"> Contact </a></button>
         </div>
         <!-- why choose me section -->
@@ -669,7 +675,7 @@
                 </button>
               </div>
               <!-- text  -->
-               <h1 class="md:text-lg mt-1 font-bold font-">“I build websites that not only look good — they work.”</h1>
+               <h1 class="text-lg  mt-1 font-bold text-center ">“I build websites that not only look good — they work.”</h1>
              </div>
            
            </div>
@@ -754,27 +760,27 @@
            <h1 class="text-3xl font-bold mb-4 pl-2">UI/UX design</h1>
            <div id="gallery-section" class="w-full grid grid-cols-1 md:grid-cols-4 gap-4 px-8">
 
-             <div class="h-140 row-span-2 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/76/0c/70/760c702bdaf8603f79ce233ac1c4db74.jpg" alt="img1" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
+             <div class="h-140 row-span-2 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/76/0c/70/760c702bdaf8603f79ce233ac1c4db74.jpg" alt="img1" loading="lazy" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
 
-             <div class="h-68 bg-zinc-300 rounded-2xl  border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/b1/d1/1c/b1d11c2e6e5bacef27800edaa0abd2f2.jpg" alt="img2" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
+             <div class="h-68 bg-zinc-300 rounded-2xl  border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/b1/d1/1c/b1d11c2e6e5bacef27800edaa0abd2f2.jpg" alt="img2" loading="lazy" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
 
-             <div class="h-68 bg-zinc-300 rounded-2xl  border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/47/33/dc/4733dccfd53e9cdbdf74e886676d8613.jpg" alt="img3" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
+             <div class="h-68 bg-zinc-300 rounded-2xl  border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/47/33/dc/4733dccfd53e9cdbdf74e886676d8613.jpg" alt="img3" loading="lazy" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
 
-             <div class="h-140 row-span-2 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/5a/3d/bf/5a3dbf2a037b879b7275a53e30595c26.jpg" alt="img4" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
+             <div class="h-140 row-span-2 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/5a/3d/bf/5a3dbf2a037b879b7275a53e30595c26.jpg" alt="img4" loading="lazy" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
 
-             <div class="h-68 bg-zinc-300 rounded-2xl  border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/f4/98/cc/f498cc5cafb82ad7c432975616d39611.jpg" alt="img5" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
+             <div class="h-68 bg-zinc-300 rounded-2xl  border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/f4/98/cc/f498cc5cafb82ad7c432975616d39611.jpg" alt="img5" loading="lazy" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
 
-             <div class="h-68 bg-zinc-300 rounded-2xl  border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/51/92/b3/5192b39f6f036b2d30caea695d9564a9.jpg" alt="img6" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
+             <div class="h-68 bg-zinc-300 rounded-2xl  border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/51/92/b3/5192b39f6f036b2d30caea695d9564a9.jpg" alt="img6" loading="lazy" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
 
-             <div class="h-68 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/48/05/7f/48057f4d529ae67a8862f40fe4acba1b.jpg" alt="img7" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
+             <div class="h-68 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/48/05/7f/48057f4d529ae67a8862f40fe4acba1b.jpg" alt="img7" loading="lazy" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
 
-             <div class="md:h-140 h-68 md:col-span-2 md:row-span-2 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/cc/48/c6/cc48c6be251e1c3ac206399245673cb9.jpg" alt="img8" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
+             <div class="md:h-140 h-68 md:col-span-2 md:row-span-2 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/cc/48/c6/cc48c6be251e1c3ac206399245673cb9.jpg" alt="img8"   loading="lazy" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
 
-             <div class="h-68 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/bb/9a/39/bb9a399e0d416752c6af0a1e5e97550a.jpg" alt="img9" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
+             <div class="h-68 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/bb/9a/39/bb9a399e0d416752c6af0a1e5e97550a.jpg" alt="img9" loading="lazy" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
 
-             <div class="h-68 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/8b/64/6d/8b646ddafb8bf875e5a6c35480ef1186.jpg" alt="img10" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
+             <div class="h-68 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/8b/64/6d/8b646ddafb8bf875e5a6c35480ef1186.jpg" alt="img10" loading="lazy" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
 
-             <div class="h-68 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/59/54/c4/5954c400ae35ca399a312aa79136a729.jpg" alt="img11" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
+             <div class="h-68 bg-zinc-300 rounded-2xl border-2 hover:shadow-[_0px_15px_30px] duration-300 overflow-hidden"><img src="https://i.pinimg.com/736x/59/54/c4/5954c400ae35ca399a312aa79136a729.jpg" alt="img11" loading="lazy" class="w-full hover:scale-105 duration-300 ease-in-out"></div>
 
            </div>
              
@@ -816,15 +822,15 @@
           <!-- first section of tools, and technologies -->
            <div class=" flex flex-col  gap-4 w-full ">
             <!-- vs code logo image -->
-            <img src="https://i.pinimg.com/736x/de/6d/51/de6d51395aee9e6d67ed425ce6bfe683.jpg" alt="" class="w-44 h-44 rounded-4xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out left-to-right">
+            <img src="https://i.pinimg.com/736x/de/6d/51/de6d51395aee9e6d67ed425ce6bfe683.jpg" loading="lazy" alt="" class="w-44 h-44 rounded-4xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out left-to-right">
             <!-- react logo image -->
-            <img src="https://i.pinimg.com/736x/b8/cf/13/b8cf13ebeafffc5249677c9ba19e4a8b.jpg" alt="" class="w-44 h-44 rounded-4xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out self-end right-to-left">
+            <img src="https://i.pinimg.com/736x/b8/cf/13/b8cf13ebeafffc5249677c9ba19e4a8b.jpg" loading="lazy" alt="" class="w-44 h-44 rounded-4xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out self-end right-to-left">
             <!-- tailwind css logo image -->
-            <img src="https://i.pinimg.com/736x/08/a3/2f/08a32fc73758025add069aefdde61b80.jpg" alt="" class="w-44 h-44 rounded-4xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out left-to-right">
+            <img src="https://i.pinimg.com/736x/08/a3/2f/08a32fc73758025add069aefdde61b80.jpg" loading="lazy" alt="" class="w-44 h-44 rounded-4xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out left-to-right">
             <!-- git logo image  -->
-            <img src="https://i.pinimg.com/736x/66/8f/03/668f031e4dde7816c77d8e36b080a94f.jpg" alt="" class="w-44 h-44 rounded-4xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out self-end right-to-left">
+            <img src="https://i.pinimg.com/736x/66/8f/03/668f031e4dde7816c77d8e36b080a94f.jpg" loading="lazy" alt="" class="w-44 h-44 rounded-4xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out self-end right-to-left">
             <!-- nextjs logo image -->
-            <img src="https://i.pinimg.com/736x/3f/f5/f9/3ff5f96fafaf0dacf5e6a8e69072f2dc.jpg" alt="" class="w-44 h-44 rounded-4xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out left-to-right">
+            <img src="https://i.pinimg.com/736x/3f/f5/f9/3ff5f96fafaf0dacf5e6a8e69072f2dc.jpg" loading="lazy" alt="" class="w-44 h-44 rounded-4xl shadow-lg hover:shadow-2xl transition-shadow duration-300 ease-in-out left-to-right">
            </div>
           <!-- skills level in HTML, CSS, JavaScript, React, Tailwind CSS, PHP, and Figma. -->
           <div class="max-w-2xl md:min-w-xl w-full mx-auto backdrop-blur-lg rounded-xl bg-black/20 p-8 border-2 md:border-gray-100 shadow-lg zoom-in">
@@ -1405,7 +1411,7 @@
          </div>
        </div>
      </div>
-        <div class="controls flex justify-between mt-4">
+        <div class="controls flex justify-between mt-4 mx-2">
           <button
             class="prev bg-teal-300 hover:bg-teal-500 px-4 py-2 rounded hover:md:-translate-y-1.5 duration-200 ease-in"
           >
@@ -1420,9 +1426,9 @@
         </div>
       </div>
       <!-- contact section  -->
-       <section id="contact" class="max-w-7xl mx-auto mt-28 mb-0 flex flex-col justify-center items-center  relative overflow-y-hidden">
+       <section id="contact" class="max-w-7xl mx-auto mt-28 mb-0 flex flex-col justify-center items-center  relative md:overflow-y-hidden overflow-hidden">
       <span class="absolute -top-50 left-0 size-110 bg-teal-700 rounded-full  z-0"></span>
-      <span class="absolute -bottom-60 right-0 size-160 bg-teal-700 rounded-full "></span>
+      <span class="absolute  -bottom-60 right-0 size-160 bg-teal-700 rounded-full "></span>
          <div class="flex flex-col md:flex-row justify-center items-center gap-10 py-16">
            <div class="w-96 z-10 bg-white/30 p-3 border-2 border-black  rounded-lg backdrop-blur-xs right-to-left">
             <h2 class="text-6xl font-bold mb-4 border-b-2">Contact Me</h2>
